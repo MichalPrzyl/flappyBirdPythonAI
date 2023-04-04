@@ -1,10 +1,8 @@
 from globals import MAX_HEIGHT, GRAVITY_FORCE, PIPE_WIDTH
 from pipe import PipeManager
-import pygame
 
 
 PLAYER_POS_X = 50
-
 
 class Player:
     pos_x: int # FIXED VALUE
