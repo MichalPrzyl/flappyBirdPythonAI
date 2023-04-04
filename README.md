@@ -8,4 +8,3 @@ The whole point of this small project is basically applying machine learning alg
 - [x] simple game
 - [ ] write better collision system. Current one is not accurate
 - [ ] apply machine learning
-
