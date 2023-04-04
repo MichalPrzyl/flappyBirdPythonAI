@@ -2,7 +2,7 @@ import pygame
 from globals import MAX_HEIGHT, MAX_WIDTH, PLAYER_WIDTH, PLAYER_HEIGHT,\
     NEW_PIPE_INTERVAL
 from player import Player
-from pipe import Pipe, PipeManager
+from pipe import PipeManager
 
 
 pygame.init()
@@ -31,9 +31,6 @@ while running:
         font = pygame.font.SysFont(None, 72)
         img = font.render('GAME OVER', True, "red")
         screen.blit(img, (MAX_WIDTH/2, MAX_HEIGHT/2))
-
-
-
 
     seconds=(pygame.time.get_ticks()-start_ticks)/1000 #calculate how many seconds
     if seconds > NEW_PIPE_INTERVAL:
